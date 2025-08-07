@@ -49,7 +49,7 @@ A solução é implementada a nível de sistema, modificando ou estendendo a HAL
 │
 ├── README.md                                        # Este arquivo
 └── docs/
-     └── arquitetura.pdf                             # Documentação
+     └── SistemasOperacionais.pdf                             # Documentação
 ```
 
 ---
