@@ -42,17 +42,14 @@ A solução é implementada a nível de sistema, modificando ou estendendo a HAL
 ## Estrutura do Projeto
 
 ```
-/driver_flashlight/
-│
+
 ├── src/
-│   ├── flashlight_driver.c / flashlight_driver.cpp   # Módulo nativo do driver (C ou C++)
+│   ├── flashlight_driver.c   # Módulo nativo do driver
 │   ├── Android.mk / CMakeLists.txt                  # Build script do módulo
-│   └── scripts/
-│        └── init.flashlight.rc                      # Script de inicialização
 │
 ├── README.md                                        # Este arquivo
 └── docs/
-     └── arquitetura.pdf                             # Documentação e estudos (opcional)
+     └── arquitetura.pdf                             # Documentação
 ```
 
 ---
