@@ -1,0 +1,4 @@
+on post-fs-data
+    # Aguarda 30 segundos após boot para ligar a lanterna
+    write /proc/flashlight_driver 1
+    # Ou execute algum script/binary que aciona o driver
